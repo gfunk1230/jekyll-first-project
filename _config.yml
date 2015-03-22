@@ -1,0 +1,12 @@
+# Site settings
+title: "News from London"
+email: gregc1230@icloud.com
+description: "A Daily Journal by Edward Hyde"
+baseurl: ""
+url: "http://localhost:4000"
+
+# Build settings
+markdown: rdiscount
+rdiscount:
+    extensions: [smart]
+permalink: /articles/:title
